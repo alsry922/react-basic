@@ -2,14 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import AppCounter from './basic/AppCounter';
-import AppProducts from "./basic/AppProducts";
-import AppXy from "./AppXY";
+import Products from "./basic/components/Products";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppXy/>
+    <Products/>
   </React.StrictMode>
 );
 
